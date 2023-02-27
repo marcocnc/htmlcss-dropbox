@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container{
@@ -49,10 +49,14 @@ p,span{
     font-size: 12px;
 }
 
-h2{
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: 900;
 }
-
 
 .button-start{
     color: white;
@@ -134,6 +138,14 @@ h2{
     padding-left: 20px;
 }
 
+.pr-5{
+    padding-right: 5px;
+}
+
+.pr-10{
+    padding-right: 10px;
+}
+
 .pb-20{
     padding-bottom: 20px;
 }
@@ -157,6 +169,11 @@ h2{
 .b-b{
     border-bottom: 1px solid #000;
 }
+
+.b-b-g{
+    border-bottom: 1px solid #637381;
+}
+
 
 
 /* /Utilities */
@@ -183,7 +200,6 @@ h2{
 .jumbotron p, 
 .jumbotron span{
     width: 25%;
-    font-size: 12px;
     line-height: 15px;
 }
 
@@ -207,6 +223,14 @@ main div span i{
     font-size: 16px;
 }
 
+.icona{
+    color: #ECECEC;
+}
+
+#checked{
+    color: #0061FF;
+}
+
 
 .main-container{
     width: 70%;
@@ -218,7 +242,7 @@ main div span i{
 .card{
     width: calc(100% / 3);
     margin-bottom: 30px;
-    background-color: burlywood;
+    border: 1px solid #637381;
 }
 
 .check{
@@ -226,7 +250,6 @@ main div span i{
 }
 
 .card-desc{
-    border: 1px solid #000;
     padding-bottom: 100px;
 }
 
@@ -242,12 +265,19 @@ main div span i{
 .card i{
     font-size: 10px;
 }
+
+.fa-solid.fa-check{
+    color: #0061FF;
+}
+.desc-price{
+    color: #637381;
+}
 /* /Main price card */
 
 
 /* Big card */
 .big-card{
-    border: 1px solid black;
+    border: 1px solid #637381;
     margin-bottom: 100px;
 }
 
@@ -258,6 +288,15 @@ main div span i{
 
 .card-function{
     position: relative;
+}
+
+.card-function a{
+    color:#0664FF;
+}
+
+.card-function span,
+.card-function a{
+    font-size: 10px;
 }
 
 .big-card .card-function .button-start{
@@ -278,6 +317,15 @@ main div span i{
 
 .section-content{
     width: 50%;
+}
+
+.section-content h3{
+    width: 90%;
+}
+
+.section-content p{
+    line-height: 25px;
+    width: 80%;
 }
 
 #partner-button{
