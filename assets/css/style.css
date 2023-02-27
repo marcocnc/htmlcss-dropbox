@@ -20,6 +20,11 @@ header{
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 5px lightgray;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%; */
 }
 
 header nav ul li{
@@ -35,8 +40,13 @@ header a{
 
 
 
-.button-start{
 
+.button-start{
+    color: white;
+    background-color: #0061FF;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
 }
 
 /* /General */
@@ -66,3 +76,23 @@ header a{
 
 
 /* /Utilities */
+
+/* Jumbotron */
+.jumbotron{
+    background-color: #B4D0E7;
+    height: 100vh;
+    
+}
+
+.jumbotron p{
+    width: 70%;
+}
+
+.jumbotron span{
+    display: block;
+}
+
+.jumbo-img img{
+    width: 60%;
+    height: 60%;
+}
