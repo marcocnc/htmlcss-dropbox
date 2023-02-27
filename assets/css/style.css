@@ -16,15 +16,16 @@ body{
 }
 
 header{
+    background-color: white;
     height: 80px;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 5px lightgray;
-    /* position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 999;
-    width: 100%; */
+    width: 100%;
 }
 
 header nav ul li{
@@ -74,18 +75,46 @@ header a{
     padding: 0 20px;
 }
 
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.pb-30{
+    padding-bottom: 30px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
 
 /* /Utilities */
 
 /* Jumbotron */
 .jumbotron{
     background-color: #B4D0E7;
-    height: 100vh;
-    
+    margin-top: 80px;
+    position: relative;
+    /* height: 1000px; */
 }
 
-.jumbotron p{
-    width: 70%;
+.jumbotron .container{
+    padding-top: 50px;
+}
+
+.jumbotron h1{
+    font-size: 60px;
+    width: 90%;
+}
+
+.jumbotron p, span{
+    width: 25%;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+span i{
+    font-size: 30px;
 }
 
 .jumbotron span{
@@ -93,6 +122,8 @@ header a{
 }
 
 .jumbo-img img{
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    position: absolute;
+    bottom: -80px;
+    right: 170px;
 }
