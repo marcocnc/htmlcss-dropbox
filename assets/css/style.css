@@ -83,6 +83,11 @@ h2{
     justify-content: space-between;
 }
 
+.py-10{
+    padding: 10px 0;
+}
+
+
 .px-20{
     padding: 0 20px;
 }
@@ -119,7 +124,8 @@ h2{
     width: 90%;
 }
 
-.jumbotron p, span{
+.jumbotron p, 
+.jumbotron span{
     width: 25%;
     font-size: 12px;
     line-height: 15px;
@@ -152,10 +158,26 @@ span i{
 
 .card{
     width: calc(100% / 3);
-    height: 500px;
+    
     background-color: burlywood;
 }
 
-.card span{
-    display: block;
+.card-desc{
+    /* padding: 10px 15px; */
+    border: 1px solid #000;
+    padding-bottom: 100px;
+}
+
+.card-desc .group{
+    justify-content: center;
+    align-items: center;
+    padding
+}
+
+.card-function{
+    padding: 10px 15px;
+}
+
+.card i{
+    font-size: 10px;
 }
