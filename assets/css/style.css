@@ -5,14 +5,38 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .container{
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+header{
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px lightgray;
+}
+
+header nav ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    vertical-align: sub;
+}
+
+
+
 .button-start{
-    
+
 }
 
 /* /General */
@@ -24,8 +48,21 @@
     display: flex;
 }
 
+.f-dir-row{
+    flex-direction: row;
+}
+
 .f-dir-col{
     flex-direction: column;
 }
+
+.space-bet{
+    justify-content: space-between;
+}
+
+.px-20{
+    padding: 0 20px;
+}
+
 
 /* /Utilities */
