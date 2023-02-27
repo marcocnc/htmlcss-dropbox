@@ -285,3 +285,20 @@ main div span i{
     color: black;
     background-color: white;
 }
+
+
+/* Mini card */
+.mini-cards-group{
+    flex-wrap: wrap;
+}
+
+.mini-card-image img{
+    width: 100%;
+    
+}
+
+.mini-card{
+    border: 1px solid #000;
+    background-color:crimson;
+    padding-right: 20px;
+}
