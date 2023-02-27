@@ -17,8 +17,8 @@ body{
 
 main{
     padding-top: 150px;
-    height: 3000px;
-    background-color: blanchedalmond;
+    /* height: 3000px;
+    background-color: blanchedalmond; */
 }
 
 header{
@@ -340,13 +340,19 @@ main div span i{
     flex-wrap: wrap;
 }
 
-.mini-card-image img{
-    width: 100%;
-    
+.mini-card{
+    padding-right: 20px;
+    border: none;
 }
 
-.mini-card{
-    border: 1px solid #000;
-    background-color:crimson;
-    padding-right: 20px;
+.mini-card-image img{
+    width: 100%;
+}
+
+.mini-card-content p{
+    width: 90%;
+}
+
+#underline{
+    text-decoration: underline ;
 }
