@@ -17,8 +17,7 @@ body{
 
 main{
     padding-top: 150px;
-    /* height: 3000px;*/
-    background-color: blanchedalmond; 
+    
 }
 
 header{
@@ -390,28 +389,27 @@ main div span i{
 /* Big container */
 .big-container{
     width: 100%;
-
-    height: 500px;
-    background-color: khaki;
 }
 
 .big-container-left{
-    width: calc(100% / 4);
+    width: 300px;
     background-color: rgb(251, 202, 137);
-    /* height:500px; */
+    height: 300px;
 }
 
 .big-container-center{
-    width: calc(100% / 2);
+    width: calc(100% - 600px);
     background-color: antiquewhite;
-    height:500px;
+    height: 300px;
 }
 
 .big-container-right{
-    width: calc(100% / 4);
+    width: 300px;
     background-color: rgb(241, 172, 81);
-    height:500px;
+    height:300px;
 }
+
+/* Left */
 
 .big-container-image{
     height: 150px;
@@ -441,12 +439,24 @@ main div span i{
     background-color: greenyellow;
 }
 
+/* /Left */
 
+/* Center */
+.big-container-center{
+    overflow: auto;
+    background-color: #F5F5F5;
+}
+.center-content img{
+    width: 30%;
+}
 
 /* Porta Dropbox Business nella tua azienda */
-.big-container.only-text{
+.only-text{
     background-color: #B4D0E7;
+    padding: 250px 0;
 }
+
+
 
 .big-container .main-container,
 .big-container.faq{
@@ -458,6 +468,11 @@ main div span i{
 }
 
 /* FAQ */
+
+.faq{
+    margin: 100px 0;
+}
+
 .question i{
     font-size: 12px;
     vertical-align: middle;
