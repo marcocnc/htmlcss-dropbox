@@ -421,6 +421,8 @@ main div span i{
     object-fit: contain;
     height: 100%;
     width: 100%;
+    transform: scale(.5);
+    filter: invert(100%);
 }
 
 #designit{
@@ -428,15 +430,15 @@ main div span i{
 }
 
 #asu{
-    background-color: red;
+    background-color: #61082B;
 }
 
-#aaa{
-    background-color: yellow;
+#uof{
+    background-color: #0093CE;
 }
 
-#bbb{
-    background-color: greenyellow;
+#topps{
+    background-color: #FF1C1C;
 }
 
 /* /Left */
@@ -448,6 +450,24 @@ main div span i{
 }
 .center-content img{
     width: 30%;
+}
+
+/* Right */
+
+#wbr{
+    background-color: #D5001F;
+}
+
+#hearst{
+    background-color: #B4D0E7;
+}
+
+#lplanet{
+    background-color: #0D2481;
+}
+
+#cco{
+    background-color: #FFD830;
 }
 
 /* Porta Dropbox Business nella tua azienda */
