@@ -207,6 +207,7 @@ li{
 
 
 /* Header */
+
 header nav ul li a img{
     vertical-align: sub;
 }
@@ -216,7 +217,36 @@ header nav ul li a img{
     padding-bottom: 25px;
 }
 
+.dropdown{
+    position: relative;
+    overflow: hidden;
+}
 
+.dropdown-menu li{
+    width: 200px;
+    padding: 10px;
+}
+  
+.dropdown-menu{
+    position: absolute;
+    top: 82px;
+    background-color: white;
+    opacity: 0;
+    transition: all .5s;
+}
+  
+.dropdown:hover{
+    overflow: visible;
+}
+
+.dropdown:hover .dropdown-menu{
+    top: 30px;
+    opacity: 1;
+}
+
+.dropdown-menu li:hover{
+    background-color: #EBEBEB;
+}
 
 /* /Header */
 
