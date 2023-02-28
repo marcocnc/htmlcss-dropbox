@@ -205,7 +205,7 @@ li{
 
 /* /Utilities */
 
-
+/* Header */
 
 /* Jumbotron */
 .jumbotron{
@@ -385,6 +385,12 @@ main div span i{
 #underline{
     text-decoration: underline ;
 }
+/* /Mini card */
+
+#dropbus,
+.short h2{
+    width: 60%;
+}
 
 /* Big container */
 .big-container{
@@ -473,9 +479,11 @@ main div span i{
 /* Porta Dropbox Business nella tua azienda */
 .only-text{
     background-color: #B4D0E7;
-    padding: 250px 0;
 }
 
+.short{
+    height:300px;
+}
 
 
 .big-container .main-container,
@@ -485,6 +493,13 @@ main div span i{
 
 .big-container.only-text h2{
     color: #61082B;
+}
+
+#free-trial{
+    color:black;
+    background-color: white;
+    border:none;
+    padding: 5px 40px;
 }
 
 /* FAQ */
@@ -521,6 +536,10 @@ footer a{
     color: white;
     text-decoration: none;
     font-size: 12px;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
 
 .footer-top{
