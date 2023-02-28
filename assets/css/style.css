@@ -105,6 +105,10 @@ h6{
     padding-top: 10px;
 }
 
+.pt-15{
+    padding-top: 15px;
+}
+
 .pt-20{
     padding-top: 20px;
 }
@@ -424,10 +428,15 @@ main div span i{
     background-color: #B4D0E7;
 }
 
-.big-container .main-container{
+.big-container .main-container,
+.big-container.faq{
     align-items: center;
 }
 
 .big-container.only-text h2{
     color: #61082B;
 }
+
+/* FAQ */
+
+
