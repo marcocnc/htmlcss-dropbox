@@ -205,7 +205,20 @@ li{
 
 /* /Utilities */
 
+
 /* Header */
+header nav ul li a img{
+    vertical-align: sub;
+}
+
+.h-link:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 25px;
+}
+
+
+
+/* /Header */
 
 /* Jumbotron */
 .jumbotron{
@@ -515,6 +528,7 @@ main div span i{
 
 .answer p{
     display: none;
+    color: #627381;
 }
 
 .question-container:hover .question{
