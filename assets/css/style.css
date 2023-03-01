@@ -16,7 +16,7 @@ body{
 }
 
 main{
-    padding-top: 150px;
+    padding-top: 250px;
     
 }
 
@@ -52,8 +52,9 @@ header a{
     vertical-align: sub;
 }
 
-p,span{
-    font-size: 12px;
+p,span,
+.card ul li{
+    font-size: 14px;
 }
 
 h1,
@@ -229,7 +230,7 @@ header nav ul li a img{
   
 .dropdown-menu{
     position: absolute;
-    top: 82px;
+    top: 60px;
     background-color: white;
     opacity: 0;
     transition: all .5s;
@@ -270,7 +271,6 @@ header nav ul li a img{
 .jumbotron p, 
 .jumbotron span{
     width: 25%;
-    line-height: 15px;
 }
 
 span i{
@@ -281,8 +281,8 @@ span i{
 .jumbo-img img{
     width: 50%;
     position: absolute;
-    bottom: -80px;
-    right: 170px;
+    bottom: -160px;
+    right: 50px;
 }
 /* /Jumbotron */
 
@@ -333,12 +333,19 @@ main div span i{
 }
 
 .card i{
-    font-size: 10px;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-right: 3px;
+}
+
+.card ul li div{
+    width: 70%;
 }
 
 .fa-solid.fa-check{
     color: #0061FF;
 }
+
 .desc-price{
     color: #637381;
 }
@@ -368,7 +375,7 @@ main div span i{
 .card-function span,
 .card-function a,
 #find-more{
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .big-card .card-function .button-start{
@@ -432,7 +439,7 @@ main div span i{
 
 #dropbus,
 .short h2{
-    width: 60%;
+    width: 50%;
 }
 
 /* Big container */
@@ -441,28 +448,28 @@ main div span i{
 }
 
 .big-container-left{
-    width: 300px;
+    width: 30%;
     background-color: rgb(251, 202, 137);
-    height: 300px;
+    height: 30vw;
 }
 
 .big-container-center{
-    width: calc(100% - 600px);
+    width: 40%;
     background-color: antiquewhite;
-    height: 300px;
+    height: 30vw;
 }
 
 .big-container-right{
-    width: 300px;
+    width: 30%;
     background-color: rgb(241, 172, 81);
-    height:300px;
+    height: 30vw;
 }
 
 /* Left */
 
 .big-container-image{
-    height: 150px;
-    width: 150px;
+    height: 50%;
+    width: 50%;
     background-color: red;
 }
 
@@ -475,7 +482,7 @@ main div span i{
 }
 
 #designit{
-    background-color: lightgray;
+    background-color: #91BD8B;
 }
 
 #asu{
